@@ -59,18 +59,18 @@ html, body {
   overflow: hidden;
 }
 .text-background {
-    height: 20em;
-    width: 20em;
-    background-color: #fff;
-    border: 1px solid rgb(5, 5, 65);
-    border-radius: 50%;
-    position: relative;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    z-index: 1;
+  height: 20em;
+  width: 20em;
+  background-color: #fff;
+  border: 1px solid rgb(5, 5, 65);
+  border-radius: 50%;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
 }
 #projects {
   padding-top: 50px;
@@ -84,7 +84,7 @@ h2 {
 }
 .first-row, .second-row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 2em;
 }
 .project-tile {
@@ -110,7 +110,7 @@ h2 {
 }
 img {
   display: block;
-  width:30vw;
+  width: 30vw;
 }
 #contact {
   background-color: #001026;
